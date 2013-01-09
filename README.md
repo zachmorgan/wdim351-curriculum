@@ -14,6 +14,8 @@ This class is about the tools, processes, frameworks and best practices to turbo
 
 This GitHub repo is the class website. You receive new materials and assignments by forking this repo and doing an upstream git merge. You submit assignments by pushing your work to your forked repo. We'll cover this process in the first class.
 
+Assignments for each week are in the README.md file within the weeks' folder. Some weeks we'll submit individually. Some weeks we'll submit as a team to a differnent repo. I'll explain at the time of assignment.
+
 ## Required Accounts
 
 1. Google
