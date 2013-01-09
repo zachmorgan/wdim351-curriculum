@@ -26,7 +26,7 @@ This GitHub repo is the class website. You receive new materials and assignments
 <table>
   <tr><td>Week 1</td><td>Class intro. Dev: Git, GitHub, GitHub Pages. PM: Team code.</td><td>January 10</td></tr>
   <tr><td>Week 2</td><td>Dev: Vagrant/MAMP. PM: Project cycle.</td> <td>January 17</td></tr>
-  <tr><td>Week 3</td><td>PM: Agile, PivotalTracker. Design: Content-first, styletiles.</td>J<td>anuary 24<</td>/td>
+  <tr><td>Week 3</td><td>PM: Agile, PivotalTracker. Design: Content-first, styletiles.</td><td>January 24</td></td>
   <tr><td>Week 4</td><td>Dev: The stack (Apache), SSH, Hosting. Code workflow. Content frameworks</td><td>January 31</td></tr>
   <tr><td>Week 5</td><td>Design: correct mockups. Dev: OOCSS. LESS+Bootstrap.</td><td>February 7</td></tr>
   <tr><td>Week 6</td><td>Dev: SASS/Compass + Foundation</td><td>February 14</td></tr>
