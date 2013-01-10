@@ -1,7 +1,7 @@
-# Class Assignment 1
+# Class Assignment 1 (see slides)
 
 1. Fork this repo into your own GitHub repo.
-1. Follow the Git Tutorial in the class presentation, working within this folder.
+1. Follow the Git Tutorial in the class slides, working within this folder.
 1. When you've completed the tutorial, push your changes back up to your GitHub repo.
 
 # Homework Assignment 1
