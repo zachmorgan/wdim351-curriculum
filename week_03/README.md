@@ -1,5 +1,7 @@
 # Class Assignment 3
 
+Presentation: http://www.rvl.io/illepic/wdim351_week03/edit
+
 1. 3a: In prep for class discussion next week, read either (or both, if you're awesome):
   1. For designers: [Redesigning Google: how Larry Page engineered a beautiful revolution](http://www.theverge.com/2013/1/24/3904134/google-redesign-how-larry-page-engineered-beautiful-revolution)
   1. For devs: [A Beginner’s Guide to HTTP and REST](http://net.tutsplus.com/tutorials/other/a-beginners-introduction-to-http-and-rest/)
