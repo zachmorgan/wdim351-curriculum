@@ -67,9 +67,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 138, oursprites/*.png */
+/* line 154, oursprites/*.png */
 .oursprites-sprite, a[href*="facebook"], a[href*="drupal"], a[href*="github"], a[href*="reddit"], a[href*="grooveshark"] {
-  background: url('../images/oursprites-s76f01d16d1.png') no-repeat;
+  background: url('../images/oursprites-sf7e1d8cf51.png') no-repeat;
 }
 
 /* line 17, ../sass/screen.scss */
@@ -111,15 +111,12 @@ body {
 
 /* line 31, ../sass/screen.scss */
 .icon a {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
   display: block;
 }
 
 /* line 38, ../sass/screen.scss */
 a[href*="facebook"] {
-  background-position: 0 -768px;
+  background-position: 0 -896px;
   height: 64px;
   width: 64px;
   background-color: #3B5998;
@@ -131,7 +128,7 @@ a[href*="facebook"]:hover, a[href*="facebook"].facebook-64_hover, a[href*="faceb
 
 /* line 43, ../sass/screen.scss */
 a[href*="drupal"] {
-  background-position: 0 -576px;
+  background-position: 0 -640px;
   height: 64px;
   width: 64px;
   background-color: #0077C0;

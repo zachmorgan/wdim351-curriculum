@@ -29,7 +29,7 @@ body{
 
 .icon{
   a{
-    @include hide-text();
+    // @include hide-text();
     display: block;
   }
 }
