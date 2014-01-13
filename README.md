@@ -7,7 +7,7 @@ This class is about the tools, processes, frameworks and best practices to turbo
 
 * Syllabus: [http://goo.gl/LT655C](http://goo.gl/LT655C)
 * Contact/Updates: [https://plus.google.com/u/0/communities/102710213013847426900](https://plus.google.com/u/0/communities/102710213013847426900) (Invite-only)
-* Class Presentations: [http://www.rvl.io/illepic](http://www.rvl.io/illepic)
+* Class Presentations: [http://www.slid.es/illepic](http://www.slid.es/illepic)
 * Class Materials: [https://github.com/aipdx-wdim351/wdim351-curriculum](https://github.com/aipdx-wdim351/wdim351-curriculum)
 
 ## Class Materials
