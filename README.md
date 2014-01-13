@@ -5,8 +5,8 @@ This class is about the tools, processes, frameworks and best practices to turbo
 
 ## Info
 
-* Syllabus: [http://goo.gl/Wi9XF](http://goo.gl/Wi9XF)
-* Contact/Updates: [https://plus.google.com/communities/113771959316964112503](https://plus.google.com/communities/113771959316964112503) (Invite-only)
+* Syllabus: [http://goo.gl/LT655C](http://goo.gl/LT655C)
+* Contact/Updates: [https://plus.google.com/u/0/communities/102710213013847426900](https://plus.google.com/u/0/communities/102710213013847426900) (Invite-only)
 * Class Presentations: [http://www.rvl.io/illepic](http://www.rvl.io/illepic)
 * Class Materials: [https://github.com/aipdx-wdim351/wdim351-curriculum](https://github.com/aipdx-wdim351/wdim351-curriculum)
 
@@ -20,7 +20,6 @@ Assignments for each week are in the README.md file within the weeks' folder. So
 
 1. Google
 1. GitHub
-1. Trello
 1. PivotalTracker
 
 ## Tentative Course Calendar
@@ -41,4 +40,4 @@ Assignments for each week are in the README.md file within the weeks' folder. So
 
 ## Here Is A Picture Of My Cat To Test Markdown
 
-![Fluffy cat](https://dl.dropbox.com/u/115284/fluffycat/flurffy.jpg "fluffy cat")
+![Fluffy cat](https://dl.dropboxusercontent.com/u/115284/meera.jpg "fluffy cat")
