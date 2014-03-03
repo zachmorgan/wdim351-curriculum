@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,58 +24,59 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 138, oursprites/*.png */
+/* line 144, oursprites/*.png */
 .oursprites-sprite, a[href*="facebook"], a[href*="drupal"], a[href*="github"], a[href*="reddit"], a[href*="grooveshark"] {
-  background: url('../images/oursprites-s76f01d16d1.png') no-repeat;
+  background-image: url('../images/oursprites-s8959feb0ae.png');
+  background-repeat: no-repeat;
 }
 
 /* line 17, ../sass/screen.scss */
 * {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -93,16 +94,15 @@ body {
   *zoom: 1;
   margin-bottom: 50px;
 }
-/* line 49, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_inline-block-list.scss */
+/* line 49, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/typography/lists/_inline-block-list.scss */
 .sprite-demo li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   white-space: nowrap;
   padding-left: 5px;
@@ -114,30 +114,31 @@ body {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
+  text-transform: capitalize;
   display: block;
 }
 
 /* line 38, ../sass/screen.scss */
 a[href*="facebook"] {
-  background-position: 0 -768px;
+  background-position: 0 -256px;
   height: 64px;
   width: 64px;
   background-color: #3B5998;
 }
-/* line 43, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-a[href*="facebook"]:hover, a[href*="facebook"].facebook-64_hover, a[href*="facebook"].facebook-64-hover {
+/* line 59, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/utilities/sprites/_base.scss */
+a[href*="facebook"]:hover, a[href*="facebook"].facebook-64-hover {
   background-position: 0 -320px;
 }
 
 /* line 43, ../sass/screen.scss */
 a[href*="drupal"] {
-  background-position: 0 -576px;
+  background-position: 0 -128px;
   height: 64px;
   width: 64px;
   background-color: #0077C0;
 }
-/* line 43, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-a[href*="drupal"]:hover, a[href*="drupal"].drupal-64_hover, a[href*="drupal"].drupal-64-hover {
+/* line 59, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/utilities/sprites/_base.scss */
+a[href*="drupal"]:hover, a[href*="drupal"].drupal-64-hover {
   background-position: 0 -192px;
 }
 
@@ -148,21 +149,21 @@ a[href*="github"] {
   width: 64px;
   background-color: #4183C4;
 }
-/* line 43, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-a[href*="github"]:hover, a[href*="github"].github-64_hover, a[href*="github"].github-64-hover {
-  background-position: 0 -64px;
+/* line 59, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/utilities/sprites/_base.scss */
+a[href*="github"]:hover, a[href*="github"].github-64-hover {
+  background-position: 0 -448px;
 }
 
 /* line 53, ../sass/screen.scss */
 a[href*="reddit"] {
-  background-position: 0 -448px;
+  background-position: 0 -640px;
   height: 64px;
   width: 64px;
   background-color: #FF4500;
 }
-/* line 43, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-a[href*="reddit"]:hover, a[href*="reddit"].reddit-64_hover, a[href*="reddit"].reddit-64-hover {
-  background-position: 0 0;
+/* line 59, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/utilities/sprites/_base.scss */
+a[href*="reddit"]:hover, a[href*="reddit"].reddit-64-hover {
+  background-position: 0 -704px;
 }
 
 /* line 58, ../sass/screen.scss */
@@ -172,9 +173,9 @@ a[href*="grooveshark"] {
   width: 64px;
   background-color: #000000;
 }
-/* line 43, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-a[href*="grooveshark"]:hover, a[href*="grooveshark"].grooveshark-64_hover, a[href*="grooveshark"].grooveshark-64-hover {
-  background-position: 0 -128px;
+/* line 59, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.17/stylesheets/compass/utilities/sprites/_base.scss */
+a[href*="grooveshark"]:hover, a[href*="grooveshark"].grooveshark-64-hover {
+  background-position: 0 -576px;
 }
 
 /* line 65, ../sass/screen.scss */
